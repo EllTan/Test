@@ -5,7 +5,7 @@ app = FastAPI()
 
 
 @app.get("/")
-def hendler():
+async def hendler():
 	return {
 			"message": "hello world"
 			}
