@@ -7,5 +7,5 @@ app = FastAPI()
 @app.get('/')
 async def handler():
     return {
-        "message": "Hello World"
+        "Angelina! I love to look at you. )"
     }
